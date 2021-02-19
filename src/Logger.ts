@@ -15,7 +15,7 @@ class Logger {
   private instance: winston.Logger;
 
   constructor(config: ILoggerConfig) {
-    this.loggerLabel = config.loggerLabel;
+    this.loggerLabel = config?.loggerLabel || '';
     this.instance = this.createWinstonLogger();
   }
 
