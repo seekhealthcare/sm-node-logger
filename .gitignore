@@ -1,0 +1,18 @@
+# IDE specific folders
+.vscode
+/.idea
+
+# dependencies
+/node_modules
+
+# misc
+.DS_Store
+
+# package lock files
+package-lock.json
+
+# log files
+*.log
+
+# testing
+unit_test_coverage
