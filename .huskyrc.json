@@ -1,5 +1,5 @@
 {
   "hooks": {
-    "pre-commit": "lint-staged && yarn test --forceExit"
+    "pre-commit": "yarn build && lint-staged && yarn test --forceExit"
   }
 }

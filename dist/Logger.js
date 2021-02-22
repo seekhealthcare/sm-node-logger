@@ -25,7 +25,7 @@ const { colorize, combine, printf, timestamp } = winston_1.format;
 const colorizer = colorize();
 class Logger {
     constructor(config) {
-        this.loggerLabel = config.loggerLabel || '';
+        this.loggerLabel = (config === null || config === void 0 ? void 0 : config.loggerLabel) || '';
         this.instance = this.createWinstonLogger();
     }
     getInstance() {
