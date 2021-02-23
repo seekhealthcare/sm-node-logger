@@ -40,7 +40,7 @@ class Logger {
       })
     ];
 
-    const runGoogleLogger = !!process.env.NODE_ENV;
+    const runGoogleLogger = process.env.NODE_ENV === 'production' || process.env.NODE_ENV === 'qa';
     if (runGoogleLogger) {
       transports.push(
         new LoggingWinston({

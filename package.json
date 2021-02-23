@@ -1,6 +1,6 @@
 {
   "name": "sm-node-lint",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Common SeekMedicare Node.js applications logger package",
   "main": "dist/Logger.js",
   "types": "src/types/index.d.ts",
